@@ -5,14 +5,15 @@ set shiftwidth=2
 set autoindent
 set smartindent
 set number
-set textwidth=80
+""set textwidth=80
 
 ""this is stuff for python
 " "set tabstop=4
 ""set expandtab
 ""set softtabstop=4
 ""set shiftwidth=4
-" filetype indent on
+filetype plugin on
+filetype indent on
 
 
 ":map q %
@@ -77,3 +78,7 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 " automatically open and close the popup menu / preview window
 ""au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 ""set completeopt=menuone,menu,longest,preview
+
+
+"for html stuff and what not
+
