@@ -16,6 +16,9 @@ filetype plugin on
 filetype indent on
 
 
+"Gui stuff
+set guifont=Monaco:h15
+
 ":map q %
 set t_Co=256
 ""colorscheme camo 
@@ -40,6 +43,7 @@ endif
 
 "use folds, use space to toggle folds"
 set foldmethod=syntax
+set foldlevelstart=1
 map <space> za
 
 "for C/C++ , open headers"
